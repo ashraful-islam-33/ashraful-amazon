@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:aquamarine;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    animation: positionAnimate 3s linear 0s infinite normal;
+}
+
+@keyframes positionAnimate{
+    0% {
+        left: 0px;
+        background-color: blueviolet;
+    }
+
+    50% {
+        background-color: brown;
+    }
+
+    100% {
+        left: 200px;
+        background-color: blue;
+        color: white;
+    }
+}

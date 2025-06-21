@@ -1,0 +1,20 @@
+#photo{
+  height: 200px;
+  width: 200px;
+  transition: all 1s ease 0.2s;
+}
+
+ #photo:hover{
+  transform: 
+  
+}
+
+a{
+  height: 200px;
+  width: 200px;
+}
+
+#photo:hover{
+  transform: scale(1.3);
+  
+}
